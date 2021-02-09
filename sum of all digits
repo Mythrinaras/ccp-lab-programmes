@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+ 
+ int main()
+ { int n , last,sum =0;
+ printf("enter the number, to get sum of all its digits\n");
+ scanf ("%d",&n);
+ original=n;
+ while(n>o)
+ {last=n%10;
+ sum=sum+last;
+ n=n/10;
+ }
+ printf("the sum of all digits of the no %d is %d ",original,sum);
+ getch();
+ return 0;
+ }
