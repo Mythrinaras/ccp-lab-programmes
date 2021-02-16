@@ -20,4 +20,7 @@ void even(int a,int b)
         printf("%d\n",a);
         a++;
     }
+    getch();
+    return ;
+
 }
