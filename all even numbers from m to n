@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+#include <conio.h>
+
+void even(int,int);
+int main()
+{
+    int m, n;
+    printf("enter the numbers from m to n \n");
+    scanf("%d %d",&m ,&n);
+    even(m,n);
+    getch();
+    return 0;
+}
+void even(int a,int b)
+{
+    while(a<=b)
+    {
+        if(a%2==0)
+        printf("%d\n",a);
+        a++;
+    }
+}
